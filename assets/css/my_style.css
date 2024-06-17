@@ -1,0 +1,53 @@
+/*页脚 start*/
+.lastUpdate {
+    float: right;
+    font-weight: 400;
+    /* font-family:'Courier New', Courier, monospace; */
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .runDate {
+    float: left;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .over {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000001;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto 5px;
+    text-shadow: 0 0 black;
+    background-color: blanchedalmond;
+  }
+
+  /*页脚 end*/
+
+  /*滚动条样式 start*/
+  /* 滚动条宽度 */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    /*横向*/
+  }
+
+  /* 滚动条颜色 */
+  ::-webkit-scrollbar-thumb {
+    background: #33a9dc;
+    background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
+    border-radius: 2em;
+  }
+  /*滚动条样式 end*/
+
+  
+  /* mermaid样式 */
+  .mermaid{
+    text-align: center;
+  }
